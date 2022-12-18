@@ -131,23 +131,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			<!-- <plugin>
-				<groupId>org.openapitools</groupId>
-				<artifactId>openapi-generator-maven-plugin</artifactId>
-				<version>6.2.1</version>
-				<executions>
-					<execution>
-						<goals>
-							<goal>generate</goal>
-						</goals>
-						<configuration>
-							<inputSpec>${project.basedir}/src/main/resources/petstore-api.yaml</inputSpec>
-							<generatorName>java</generatorName>
-							<library>resttemplate</library>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin> -->
 		</plugins>
 	</build>
 
