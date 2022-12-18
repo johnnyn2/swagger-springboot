@@ -6,13 +6,13 @@ import org.openapitools.model.ProductRequest;
 import org.openapitools.model.ProductResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.swagger.springboot.Enum.ErrorResponseEnum;
 import com.swagger.springboot.exception.ProductRequestException;
 import com.swagger.springboot.model.Product;
 import com.swagger.springboot.service.ProductService;
-
 
 @RestController
 public class ProductController implements ProductsApi {
